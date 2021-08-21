@@ -9,17 +9,18 @@ namespace POOdotnet
     static void Main(string[] args)
     {
 
-
+      string opcao;
       string opcaoUsuario = OpcaoSerieFilme();
       while (opcaoUsuario.ToUpper() != "X")
       {
+        opcao = opcaoUsuario;
         switch (opcaoUsuario)
         {
           case "1":
-            menuSerie(opcaoUsuario);
+            menuSerie(opcao);
             break;
           case "2":
-            menuFilmes(opcaoUsuario);
+            menuFilmes(opcao);
             break;
           case "C":
             Console.Clear();
@@ -33,26 +34,29 @@ namespace POOdotnet
 
     private static void menuSerie(string opcaoUsuario)
     {
-      opcaoUsuario = ObterOpcaoUsuarioSerie();
+      string opcao = opcaoUsuario;
+      string opcaoUsuarioMenu = ObterOpcaoUsuarioSerie();
 
-      while (opcaoUsuario.ToUpper() != "X")
+      while (opcaoUsuarioMenu.ToUpper() != "X")
       {
-        switch (opcaoUsuario)
+
+
+        switch (opcaoUsuarioMenu)
         {
           case "1":
-            ListarSF(opcaoUsuario);
+            ListarSF(opcao);
             break;
           case "2":
-            InserirSF(opcaoUsuario);
+            InserirSF(opcao);
             break;
           case "3":
-            AtualizarSF(opcaoUsuario);
+            AtualizarSF(opcao);
             break;
           case "4":
-            ExcluirSF(opcaoUsuario);
+            ExcluirSF(opcao);
             break;
           case "5":
-            VisualizarSF(opcaoUsuario);
+            VisualizarSF(opcao);
             break;
           case "C":
             Console.Clear();
@@ -60,31 +64,33 @@ namespace POOdotnet
           default:
             throw new ArgumentOutOfRangeException();
         }
-        opcaoUsuario = ObterOpcaoUsuarioSerie();
+        opcaoUsuarioMenu = ObterOpcaoUsuarioSerie();
       }
     }
     private static void menuFilmes(string opcaoUsuario)
     {
-      opcaoUsuario = ObterOpcaoUsuarioFilme();
+      string opcao = opcaoUsuario;
 
-      while (opcaoUsuario.ToUpper() != "X")
+      string opcaoUsuarioMenu = ObterOpcaoUsuarioFilme();
+
+      while (opcaoUsuarioMenu.ToUpper() != "X")
       {
-        switch (opcaoUsuario)
+        switch (opcaoUsuarioMenu)
         {
           case "1":
-            ListarSF(opcaoUsuario);
+            ListarSF(opcao);
             break;
           case "2":
-            InserirSF(opcaoUsuario);
+            InserirSF(opcao);
             break;
           case "3":
-            AtualizarSF(opcaoUsuario);
+            AtualizarSF(opcao);
             break;
           case "4":
-            ExcluirSF(opcaoUsuario);
+            ExcluirSF(opcao);
             break;
           case "5":
-            VisualizarSF(opcaoUsuario);
+            VisualizarSF(opcao);
             break;
           case "C":
             Console.Clear();
@@ -92,7 +98,7 @@ namespace POOdotnet
           default:
             throw new ArgumentOutOfRangeException();
         }
-        opcaoUsuario = ObterOpcaoUsuarioFilme();
+        opcaoUsuarioMenu = ObterOpcaoUsuarioFilme();
       }
     }
     private static void VisualizarSF(string opcaoUsuario)
