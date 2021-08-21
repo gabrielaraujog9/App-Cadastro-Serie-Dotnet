@@ -1,0 +1,16 @@
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.exe
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.deps.json
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.runtimeconfig.json
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.runtimeconfig.dev.json
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.dll
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\ref\POOdotnet.dll
+C:\Users\Araújo\Desktop\POOdotnet\bin\Debug\net5.0\POOdotnet.pdb
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.csproj.AssemblyReference.cache
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.AssemblyInfoInputs.cache
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.AssemblyInfo.cs
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.csproj.CoreCompileInputs.cache
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.dll
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\ref\POOdotnet.dll
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.pdb
+C:\Users\Araújo\Desktop\POOdotnet\obj\Debug\net5.0\POOdotnet.genruntimeconfig.cache
